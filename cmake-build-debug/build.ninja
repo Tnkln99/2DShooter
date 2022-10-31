@@ -55,11 +55,11 @@ build CMakeFiles/scrLib.dir/scr/Player.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/U
   OBJECT_DIR = CMakeFiles\scrLib.dir
   OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr
 
-build CMakeFiles/scrLib.dir/scr/Technical/Animation.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/Technical/Animation.cpp || cmake_object_order_depends_target_scrLib
-  DEP_FILE = CMakeFiles\scrLib.dir\scr\Technical\Animation.cpp.obj.d
+build CMakeFiles/scrLib.dir/scr/Animation.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/Animation.cpp || cmake_object_order_depends_target_scrLib
+  DEP_FILE = CMakeFiles\scrLib.dir\scr\Animation.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\scrLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr\Technical
+  OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr
 
 build CMakeFiles/scrLib.dir/scr/LivingBody.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/LivingBody.cpp || cmake_object_order_depends_target_scrLib
   DEP_FILE = CMakeFiles\scrLib.dir\scr\LivingBody.cpp.obj.d
@@ -67,8 +67,32 @@ build CMakeFiles/scrLib.dir/scr/LivingBody.cpp.obj: CXX_COMPILER__scrLib_Debug C
   OBJECT_DIR = CMakeFiles\scrLib.dir
   OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr
 
-build CMakeFiles/scrLib.dir/scr/Transformable.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/Transformable.cpp || cmake_object_order_depends_target_scrLib
-  DEP_FILE = CMakeFiles\scrLib.dir\scr\Transformable.cpp.obj.d
+build CMakeFiles/scrLib.dir/scr/GameObject.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/GameObject.cpp || cmake_object_order_depends_target_scrLib
+  DEP_FILE = CMakeFiles\scrLib.dir\scr\GameObject.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\scrLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr
+
+build CMakeFiles/scrLib.dir/scr/Game.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/Game.cpp || cmake_object_order_depends_target_scrLib
+  DEP_FILE = CMakeFiles\scrLib.dir\scr\Game.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\scrLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr
+
+build CMakeFiles/scrLib.dir/scr/UI/Button.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/UI/Button.cpp || cmake_object_order_depends_target_scrLib
+  DEP_FILE = CMakeFiles\scrLib.dir\scr\UI\Button.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\scrLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr\UI
+
+build CMakeFiles/scrLib.dir/scr/UI/MenuWindow.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/UI/MenuWindow.cpp || cmake_object_order_depends_target_scrLib
+  DEP_FILE = CMakeFiles\scrLib.dir\scr\UI\MenuWindow.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\scrLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr\UI
+
+build CMakeFiles/scrLib.dir/scr/GameLogic.cpp.obj: CXX_COMPILER__scrLib_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/GameLogic.cpp || cmake_object_order_depends_target_scrLib
+  DEP_FILE = CMakeFiles\scrLib.dir\scr\GameLogic.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\scrLib.dir
   OBJECT_FILE_DIR = CMakeFiles\scrLib.dir\scr
@@ -81,7 +105,7 @@ build CMakeFiles/scrLib.dir/scr/Transformable.cpp.obj: CXX_COMPILER__scrLib_Debu
 #############################################
 # Link the static library libscrLib.a
 
-build libscrLib.a: CXX_STATIC_LIBRARY_LINKER__scrLib_Debug CMakeFiles/scrLib.dir/scr/Player.cpp.obj CMakeFiles/scrLib.dir/scr/Technical/Animation.cpp.obj CMakeFiles/scrLib.dir/scr/LivingBody.cpp.obj CMakeFiles/scrLib.dir/scr/Transformable.cpp.obj
+build libscrLib.a: CXX_STATIC_LIBRARY_LINKER__scrLib_Debug CMakeFiles/scrLib.dir/scr/Player.cpp.obj CMakeFiles/scrLib.dir/scr/Animation.cpp.obj CMakeFiles/scrLib.dir/scr/LivingBody.cpp.obj CMakeFiles/scrLib.dir/scr/GameObject.cpp.obj CMakeFiles/scrLib.dir/scr/Game.cpp.obj CMakeFiles/scrLib.dir/scr/UI/Button.cpp.obj CMakeFiles/scrLib.dir/scr/UI/MenuWindow.cpp.obj CMakeFiles/scrLib.dir/scr/GameLogic.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\scrLib.dir
   POST_BUILD = cd .
@@ -96,7 +120,7 @@ build libscrLib.a: CXX_STATIC_LIBRARY_LINKER__scrLib_Debug CMakeFiles/scrLib.dir
 #############################################
 # Order-only phony target for 2DShooter
 
-build cmake_object_order_depends_target_2DShooter: phony || CMakeFiles/2DShooter.dir
+build cmake_object_order_depends_target_2DShooter: phony || cmake_object_order_depends_target_scrLib
 
 build CMakeFiles/2DShooter.dir/scr/main.cpp.obj: CXX_COMPILER__2DShooter_Debug C$:/Users/tanku/Documents/Projects/2DShooter/scr/main.cpp || cmake_object_order_depends_target_2DShooter
   DEP_FILE = CMakeFiles\2DShooter.dir\scr\main.cpp.obj.d
@@ -112,9 +136,9 @@ build CMakeFiles/2DShooter.dir/scr/main.cpp.obj: CXX_COMPILER__2DShooter_Debug C
 #############################################
 # Link the executable 2DShooter.exe
 
-build 2DShooter.exe: CXX_EXECUTABLE_LINKER__2DShooter_Debug CMakeFiles/2DShooter.dir/scr/main.cpp.obj
+build 2DShooter.exe: CXX_EXECUTABLE_LINKER__2DShooter_Debug CMakeFiles/2DShooter.dir/scr/main.cpp.obj | libscrLib.a C$:/msys64/mingw64/lib/libsfml-network.dll.a C$:/msys64/mingw64/lib/libsfml-graphics.dll.a C$:/msys64/mingw64/lib/libsfml-window.dll.a C$:/msys64/mingw64/lib/libsfml-audio.dll.a C$:/msys64/mingw64/lib/libsfml-system.dll.a || libscrLib.a
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libscrLib.a  C:/msys64/mingw64/lib/libsfml-network.dll.a  C:/msys64/mingw64/lib/libsfml-graphics.dll.a  C:/msys64/mingw64/lib/libsfml-window.dll.a  C:/msys64/mingw64/lib/libsfml-audio.dll.a  C:/msys64/mingw64/lib/libsfml-system.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2DShooter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

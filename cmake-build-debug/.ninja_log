@@ -1,3 +1,23 @@
 # ninja log v5
-0	282	6859275922454230	CMakeFiles/2DShooter.dir/scr/main.cpp.obj	adf8046584582d35
-284	377	6859275923386583	2DShooter.exe	fb4694289eb5ebff
+3	832	6887703369634826	CMakeFiles/2DShooter.dir/scr/main.cpp.obj	adf8046584582d35
+674	788	6887706392888403	2DShooter.exe	be5f521a3f1e6633
+1	141	6888705588932047	build.ninja	5d2e2ebad863418c
+11	516	6887705144470579	CMakeFiles/scrLib.dir/scr/GameObject.cpp.obj	6c7feda2e6ec809f
+7	493	6887705144220527	CMakeFiles/scrLib.dir/scr/LivingBody.cpp.obj	e1de84ac0bd61e5a
+4	495	6887705144250532	CMakeFiles/scrLib.dir/scr/Player.cpp.obj	1d272c5d493fee4d
+9	509	6887705144400557	CMakeFiles/scrLib.dir/scr/Animation.cpp.obj	618e764b1c57807a
+13	568	6887705144980547	CMakeFiles/scrLib.dir/scr/UI/Button.cpp.obj	c2c3fa42efe3979
+4	601	6887706391044571	CMakeFiles/scrLib.dir/scr/UI/MenuWindow.cpp.obj	a58a653434043b13
+3	485	6887705297747145	CMakeFiles/scrLib.dir/scr/Game.cpp.obj	cce67c42f27729d6
+602	674	6887706391779913	libscrLib.a	2801566f2808aba5
+5	778	6888724370828360	CMakeFiles/scrLib.dir/scr/Player.cpp.obj	1d272c5d493fee4d
+11	781	6888724370858367	CMakeFiles/scrLib.dir/scr/GameLogic.cpp.obj	449719c8cdb1ea63
+4	503	6888724994936344	CMakeFiles/scrLib.dir/scr/Player.cpp.obj	1d272c5d493fee4d
+9	509	6888724995006359	CMakeFiles/scrLib.dir/scr/GameObject.cpp.obj	6c7feda2e6ec809f
+10	514	6888724995056906	CMakeFiles/scrLib.dir/scr/GameLogic.cpp.obj	449719c8cdb1ea63
+4	425	6888727305067205	CMakeFiles/scrLib.dir/scr/Player.cpp.obj	1d272c5d493fee4d
+8	440	6888727305227240	CMakeFiles/scrLib.dir/scr/GameObject.cpp.obj	6c7feda2e6ec809f
+10	441	6888727305237237	CMakeFiles/scrLib.dir/scr/GameLogic.cpp.obj	449719c8cdb1ea63
+6	457	6888727305387296	CMakeFiles/scrLib.dir/scr/LivingBody.cpp.obj	e1de84ac0bd61e5a
+458	635	6888727307171398	libscrLib.a	faeccf575dc676c0
+635	877	6888727309560607	2DShooter.exe	be5f521a3f1e6633

@@ -1,20 +1,20 @@
 #ifndef INC_2DSHOOTER_LIVINGBODY_H
 #define INC_2DSHOOTER_LIVINGBODY_H
 
-#include "Animation.h"
-#include "Transformable.h"
+#include "GameObject.h"
 
-class LivingBody : Transformable{
+class Animation;
+
+class LivingBody : GameObject{
 private:
-    sf::Texture texture;
-    Animation animation;
+    Animation* animation;
 
     float health;
     float speed;
 public:
+    LivingBody(std::string& name, sf::Vector2u location,sf::Texture* texture, float health, float speed);
     //getters:
-    const sf::Texture & getTexture();
-    const Animation & getAnimation();
+    const Animation * getAnimation();
     float getHealth();
     float getSpeed();
 
